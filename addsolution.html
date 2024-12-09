@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin page</title>
+</head>
+<body style="background-image:url(https://pbs.twimg.com/media/ELzgv-4U4AAqe3j.jpg:large);background-attachment:fixed;">
+    
+
+    <nav style="font-size: 30px; ">
+        <img src="images-removebg-preview.png" alt="" style="float: left; width:200px;height:100px;margin-right:14%">
+       
+        <li><a href="admin.jsp">View Problems</a></li>
+          <li><a href="#add">Add Solution</a></li>
+          <li><a href="donar.html">Add Donar</a></li>
+          <li><a href="feedback.jsp"> View feedback</a></li>
+          <li><a href="index.html">Log Out</a></li>
+        </nav> <br><br><br><br>
+        <marquee behavior="" direction="up">        <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif; color:white; text-align:left; margin-left:50px; font-size:50px">Admin page</h1>
+        </marquee>     
+        <marquee behavior="" direction="up">        <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif; color:white; text-align:left; margin-left:50px; font-size:50px">Add Solution</h1>
+        </marquee>     
+<div id="add" >
+    <h1 style="text-align:center;">Add Solution </h1>
+    <div id="form">
+        <form action="addsol.jsp">
+            <label >Problem ID:</label>
+            <input type="text"  name="as1" required placeholder="problem id which you want to solve"><br><br>
+            <label >Solution:</label>
+            <input type="text"  name="as2" required  placeholder="solution details"><br><br>
+            <label >Givan By:</label>
+            <input type="text"  name="as3" required placeholder="your name"><br><br>
+            <label >Date:</label>
+            <input type="date"  name="as4" required placeholder="date of your solution"><br><br>
+            
+           
+            <input type="submit" class="sub">
+
+        </form>
+    </div>
+</div>
+
+
+</div>
+
+</body>
+
+</html>

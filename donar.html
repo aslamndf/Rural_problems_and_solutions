@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin page</title>
+</head>
+<body style="background-image:url(https://pbs.twimg.com/media/ELzgv-4U4AAqe3j.jpg:large);background-attachment:fixed;">
+    
+
+    <nav style="font-size: 30px; ">
+        <img src="images-removebg-preview.png" alt="" style="float: left; width:200px;height:100px;margin-right:14%">
+       
+        <li><a href="admin.jsp">View Problems</a></li>
+          <li><a href="addsolution.html">Add Solution</a></li>
+          <li><a href="#add">Add Donar</a></li>
+          <li><a href="feedback.jsp"> View feedback</a></li>
+          <li><a href="index.html">Log Out</a></li>
+        </nav> <br><br><br><br>
+        <marquee behavior="" direction="up">        <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif; color:white; text-align:left; margin-left:50px; font-size:50px">Admin page</h1>
+        </marquee>
+        <marquee behavior="" direction="up">        <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif; color:white; text-align:left; margin-left:50px; font-size:50px;">Add Donar</h1>
+        </marquee>
+        <div id="add" >
+            <h1 style="text-align:center;">Add Donar </h1>
+            <div id="form">
+                <form action="donar.jsp">
+                    <label >Donar ID:</label>
+                    <input type="text" name="d1" required placeholder="donar id should be unic"> <br><br>
+                    <label >Donar Name:</label>
+                    <input type="text" name="d2" required placeholder="donar full name"> <br><br>
+                    <label >Donation Type:</label>
+                    <input type="text" name="d3" required placeholder="Type of the donation"> <br><br>
+
+                    <textarea name="d4" cols="50" rows="3" placeholder="details about the donation"></textarea><br><br>
+                  
+                    <label >Date:</label>
+                    <input type="date" name="d5" required> <br><br>
+                    <label >Contact Number:</label>
+                    <input type="text" name="d6" required placeholder="donar contact number" pattern="[9876][0-9]{9}">
+                    <br><br>
+                
+                    <input type="submit" class="sub">
+                </form>
+            </div>
+        </div>
+
+</body>
+
+</html>

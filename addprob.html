@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user page</title>
+</head>
+<body style="background-image: url(https://media.istockphoto.com/id/508194578/photo/indian-village-life.jpg?s=612x612&w=0&k=20&c=4BA2BcJEdb0ZLd-pdAHaYeA__Ksz-OfT0lqUy5ab8KU=);background-attachment:fixed;">
+    <nav>
+        <img src="images-removebg-preview.png" alt="" style="float: left; width:200px;height:100px;margin-right:14%">
+       
+        <li><a href="user.jsp">View Solution</a></li>
+        <li><a href="addfeed.html">Add Feedback</a></li>
+          <li><a href="#add">Add Problems</a></li>
+          <li><a href="viewdonar.jsp">View Donars</a></li>
+
+          <li><a href="index.html">Log Out</a></li>
+        </nav> 
+
+        <br><br><br><br>
+        <marquee behavior="" direction="up">        <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif; color:white; text-align:left; margin-left:50px; font-size:50px">User page</h1>
+        </marquee>
+        <marquee behavior="" direction="up">        <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif; color:white; text-align:left; margin-left:50px; font-size:50px">Add Problem</h1>
+        </marquee>
+        <div id="add" >
+            <h1 style="text-align:center;">Add Problems </h1>
+            <div id="form">
+                <form action="addprob.jsp">
+                    <label >Problem ID:</label>
+                    <input type="text"  name="p1" placeholder="it is uniq for a problem " required ><br><br>
+                    <label >Village Name:</label>
+                    <input type="text"  name="p2" placeholder="your village name " required><br><br>
+                    <label >Distric:</label>
+                    <input type="text"  name="p3" placeholder="your distirct " required><br><br>
+                    <label >Taluk:</label>
+                    <input type="text"  name="p4" placeholder="your Taluk " required><br><br>
+                  
+                   <textarea name="p5"cols="40" rows="2" placeholder="enter the details on problem" required></textarea><br><br>
+                    <label >Givan By:</label>
+                    <input type="text"  name="p6" placeholder="name of the problem submitter " required>
+                    <br><br>
+                    <br>
+                    <input type="submit" class="sub">
+  
+                </form>
+            </div>
+        </div>
+  
+        
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user page</title>
+</head>
+<body style="background-image: url(https://media.istockphoto.com/id/508194578/photo/indian-village-life.jpg?s=612x612&w=0&k=20&c=4BA2BcJEdb0ZLd-pdAHaYeA__Ksz-OfT0lqUy5ab8KU=);background-attachment:fixed;">
+    <nav>
+        <img src="images-removebg-preview.png" alt="" style="float: left; width:200px;height:100px;margin-right:14%">
+       
+        <li><a href="user.jsp">View Solution</a></li>
+        <li><a href="#add">Add Feedback</a></li>
+          <li><a href="addprob.html">Add Problems</a></li>
+          <li><a href="viewdonar.jsp">View Donars</a></li>
+        
+          <li><a href="index.html">Log Out</a></li>
+        </nav> 
+
+        <br><br><br><br>
+        <marquee behavior="" direction="up">        <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif; color:white; text-align:left; margin-left:50px; font-size:50px">User page</h1>
+        </marquee>
+        <marquee behavior="" direction="up">        <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif; color:white; text-align:left; margin-left:50px; font-size:50px">Add Feedback</h1>
+        </marquee>
+        <div id="add" >
+            <h1 style="text-align:center;">Add Feedback </h1>
+            <div id="form">
+                <form action="addfeed.jsp">
+                    <label >Given By:</label>
+                    <input type="text" name="d1" required placeholder="should be your name"> <br><br>
+                    <label >Given To:</label>
+                    <input type="text" name="d2" required placeholder="name of the admin" > <br><br>
+                    <label >Date:</label>
+                    <input type="date" name="d3" required placeholder="Date of your submit"> <br><br>
+                    <textarea name="d4" id="" cols="30" rows="6" required placeholder="enter the feedback here"></textarea>
+                    <br><br>
+                    <br>
+                    <input type="submit" class="sub">
+                </form>
+            </div>
+        </div>
+  
+        
+</body>
+</html>
